@@ -25,12 +25,13 @@ The data files are not included. Download the 6 Portfolios 2x3 CSV from the libr
 5. **Benchmarks:** the market, and a static 70/15/15 portfolio held throughout.
 
 ## Results
-	            |  StDev	| CAGR	   | Terminal Wealth | Sharpe  |
-Market        |0.183305 | 0.103766 | 19717.05        | 0.454528|
-Factor Timing	|0.188327 | 0.104924 | 21900.75        | 0.452086|
-Static Tilt	  |0.200479	| 0.114661 | 52741.68        | 0.479930|
+| Portfolio | CAGR | Volatility | Sharpe | $1 grows to |
+|---|---|---|---|---|
+| Market | 10.38% | 18.33% | 0.455 | $19,717 |
+| Factor Timing | 11.34% | 19.60% | 0.480 | $47,077 |
+| Static Tilt | 11.47% | 20.05% | 0.480 | $52,742 |
 
-The factor timing strategy outperformed the market by 11.08% on a terminal wealth basis and ~11bps on a CAGR basis, but had lower risk adjusted performance than the market owing to its disproportionately higher standard deviation. The static tilt outperformed the factor timing strategy by 140.82% on a terminal wealth basis and ~98 bps on a CAGR basis, also achieving higher risk adjusted performance owing to a less than proportionately higher standard deviation. The results suggest that the factor timing strategy did not add value on a risk adjusted performance basis, and underperforms a static tilt on both a raw returns and risk adjusted performance basis.
+The factor timing strategy outperformed the market on a raw and risk adjusted basis. The static tilt outperformed the factor timing strategy by on a terminal wealth basis and matched its risk adjusted performance, when rounded to three decimal places. The timing strategy's inability to outperform a static tilt, paired with outperformance of the untilted market return suggests that factor tilting added value, but factor timing, with these specific parameters and assumptions, did not add incremental value.
 
 ## Limitations
 - Returns are paper portfolios with no fees, trading costs, or investability screens. SCV in particular includes micro-caps that are costly to trade.
