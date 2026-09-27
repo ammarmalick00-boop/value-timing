@@ -31,7 +31,7 @@ The data files are not included. Download the 6 Portfolios 2x3 CSV from the libr
 | Factor Timing | 11.34% | 19.60% | 0.480 | $47,077 |
 | Static Tilt | 11.47% | 20.05% | 0.480 | $52,742 |
 
-The factor timing strategy outperformed the market on a raw and risk adjusted basis. The static tilt outperformed the factor timing strategy by on a terminal wealth basis and matched its risk adjusted performance, when rounded to three decimal places. The timing strategy's inability to outperform a static tilt, paired with outperformance of the untilted market return suggests that factor tilting added value, but factor timing, with these specific parameters and assumptions, did not add incremental value.
+The factor timing strategy outperformed the market on a raw and risk adjusted basis. The static tilt outperformed the factor timing strategy and matched its risk adjusted performance, when rounded to three decimal places. The timing strategy's inability to outperform a static tilt, paired with outperformance of the untilted market return suggests that factor tilting added value, but factor timing, with these specific parameters and assumptions, did not add incremental value.
 
 ## Limitations
 - Returns are paper portfolios with no fees, trading costs, or investability screens. SCV in particular includes micro-caps that are costly to trade.
@@ -39,6 +39,8 @@ The factor timing strategy outperformed the market on a raw and risk adjusted ba
 - Parameters (60-month windows, 2 SD threshold, 70/15/15 weights) were chosen a priori and not sensitivity-tested.
 
 ## Future Additions
-- Robustness checks
+- Robustness Checks
 - Statistical Significance Analysis
 - Trading Cost & Investability Adjustments
+
+## Note: The data on average BE/ME for each portfolio was derived from downloading the '6 portfolios formed on size and book-to-market' file from Ken French's data library. To reproduce code, please download the aforementioned filed, replace the filepath with your devices appropriate path and update the row number that the average BE/ME values begin at in your file. I've used the most recent file as of uploading, the 202608 file.
